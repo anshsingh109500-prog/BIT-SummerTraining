@@ -3,11 +3,11 @@
 
 #Create a list of 5 student names. Add one new student name to the list and print the final list.
 
-print("#"*45)
+
 students_name = ["Aman","Priya","Shalu","Raj","Ansh"]
 students_name.append("Vivek")
 print(students_name)
-print("#"*45)
+
 
 
 ### Question 2: Tuple Indexing
@@ -16,7 +16,7 @@ print("#"*45)
 
 city_names = ("Gorakhpur","Azamgarh","Delhi","Lucknow","Varanasi")
 print(city_names[2])
-print("#"*45)
+
 
 
 ### Question 3: Set Add
@@ -25,8 +25,7 @@ print("#"*45)
 
 courses = { "Data Analytics", "Machine Learning", "Python", "SQL"}
 courses.add("AI")
-print(courses)
-print("#"*45)
+print(sorted(courses))
 
 
 ### Question 4: Dictionary Access
@@ -39,7 +38,7 @@ student = {"name":"Rahul",
            }
 print("Name:",student["name"])
 print("Course:",student["course"])
-print("#"*45)
+
 
 
 ### Question 5: Filter Even Numbers
@@ -53,7 +52,6 @@ for num in numbers:
     else:
         continue
 print(even_numbers)
-print("#"*45)
 
 
 ### Question 6: Count Word Frequency
@@ -72,7 +70,6 @@ for word in words:
         count_word[word] = 1
 
 print(count_word)
-print("#"*45)
 
 
 ### Question 7: Nested Student Dictionary
@@ -85,7 +82,6 @@ student = {
     }
 student["skills"].append("Pandas")
 print(student)
-print("#"*45)
 
 
 
