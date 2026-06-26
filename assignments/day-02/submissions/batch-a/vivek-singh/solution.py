@@ -1,15 +1,15 @@
 # 1. Write a program to check whether a number is positive, negative, or zero.
 num = int(input("Enter the number: "))
-if num>0:
+if num > 0:
     print(f"{num} is positive number.")
-elif num<0:
+elif num < 0:
     print(f"{num} is negative number.")
 else:
     print("Given number is 0.")
 
 # 2. Write a program to check whether a number is even or odd.
 num = int(input("Enter a number: "))
-if num%2 ==0:
+if num%2 == 0:
     print(f"{num} is even number.")
 else:
     print(f"{num} is odd number.")
